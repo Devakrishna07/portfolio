@@ -15,7 +15,7 @@ function About() {
 
         {/* Right: Content */}
         <div className="md:w-1/2 space-y-4">
-          <h2 className="text-green-400 text-lg font-semibold">Who am I?</h2>
+          <h2 className="text-green-400 text-lg font-semibold mt-2 md:mt-0">Who am I?</h2>
           <h1 className='text-2xl md:text-3xl font-bold'>I'm Deva Prasad NR</h1>
           <h1 className="text-2xl md:text-3xl font-bold">
              a Flutter Developer and Python FullStack Developer
@@ -26,7 +26,7 @@ function About() {
           </p>
 
           <div className="border-t border-gray-600 pt-4 space-y-2 text-sm">
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 gap-4 overflow-hidden p-2 m-2">
               <p><span className="font-semibold">Name:</span> Deva Prasad NR</p>
               <p><span className="font-semibold">From:</span> Irinjalakuda, Thrissur, Kerala</p>
               <p><span className="font-semibold">Age:</span> 22</p>
