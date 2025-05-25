@@ -5,7 +5,7 @@ import NavBar from '../components/NavBar'
 
 function Home() {
   return (
-    <div style={{backgroundColor:'#250A6D'}} className="w-screen min-h-screen flex flex-col-reverse md:flex-row items-center justify-evenly">
+    <div id='home' style={{backgroundColor:'#100C08'}} className="w-screen min-h-screen flex flex-col-reverse md:flex-row items-center justify-evenly">
       <NavBar/>
       {/*Left section */}
       <div className="flex flex-col items-start justify-center m-4 p-2">
