@@ -1,13 +1,16 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-
+import logo from '../assets/profilelogo.png'
 const Navbar = () => {
   const navItems = ['home', 'about', 'projects', 'contact'];
 
   return (
-    <nav className="hidden md:block fixed top-0 left-0 w-full">
+    <nav className="hidden md:block fixed top-0 left-0 w-full z-50">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        <h1 className="text-xl font-bold">MyPortfolio</h1>
+        <img
+          src={logo} 
+          alt="myPortfolio"
+          className="text-xl font-bold h-20 w-auto" />
         <ul className="flex space-x-6">
           {navItems.map((item) => (
             <li key={item}>

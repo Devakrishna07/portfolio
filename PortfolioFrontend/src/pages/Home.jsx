@@ -13,7 +13,7 @@ function Home() {
         <h1 className="text-[#C7B830] text-3xl md:text-6xl sm:2xl font-bold">
           <ReactTyped strings={['DEVA PRASAD NR']} typeSpeed={90}/>
         </h1>
-        <h1 className="text-white text-xl md:text-2xl mt-4">
+        <h1 className="text-white text-xl md:text-2xl mt-1">
           <ReactTyped strings={["Flutter Developer", "Python FullStack Developer", "Flutter|Python FullStack |Developer"]} typeSpeed={90} backSpeed={50} loop={true} />
         </h1>
         <button style={{backgroundColor:'#CBAE35'}} className="text-white m-4 p-2 rounded-md self-center md:self-start ">My Resume</button>
