@@ -26,11 +26,11 @@ function About() {
           </p>
 
           <div className="border-t border-gray-600 pt-4 space-y-2 text-sm">
-            <div className="grid grid-cols-2 gap-4 overflow-hidden p-2 m-2">
+            <div className="grid md:grid-cols-2 gap-4 grid-cols-1 overflow-hidden p-2 m-2">
               <p><span className="font-semibold">Name:</span> Deva Prasad NR</p>
               <p><span className="font-semibold">From:</span> Irinjalakuda, Thrissur, Kerala</p>
+              <p><span className="font-semibold">Email:</span> devaprasadnr2@gmail.com</p>
               <p><span className="font-semibold">Age:</span> 22</p>
-              <p><span className="font-semibold">Email:</span> devaprasadnr2@gmail.com.com</p>
             </div>
             <button className="mt-4 bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded mt-8">
               Download CV
